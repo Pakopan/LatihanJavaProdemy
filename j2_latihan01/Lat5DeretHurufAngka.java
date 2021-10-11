@@ -22,11 +22,11 @@ public class Lat5DeretHurufAngka {
         int n = toolInput.nextInt();
         toolInput.close();
 
-        char pola_huruf = 'A';
+        char polaHuruf = 'A';
 
         for (int i=0; i<n; i++) {
             System.out.print(i+2 + " ");
-            if (++i<n) System.out.print(pola_huruf++ + " ");
+            if (++i<n) System.out.print(polaHuruf++ + " ");
         }
     }
 }
