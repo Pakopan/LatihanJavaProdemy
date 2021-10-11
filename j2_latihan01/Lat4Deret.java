@@ -17,10 +17,10 @@ package j2_latihan01;
 import java.util.Scanner;
 public class Lat4Deret {
     public static void main(String[] args) {
-        Scanner tool_input = new Scanner (System.in);
+        Scanner toolinput = new Scanner (System.in);
         System.out.print("Silahkan masukkan nilai n : ");
-        int n = tool_input.nextInt();
-        tool_input.close();
+        int n = toolInput.nextInt();
+        toolInput.close();
 
         int pola2=3;
 
