@@ -17,10 +17,10 @@ package j2_latihan01;
 import java.util.Scanner;
 public class Lat5DeretHurufAngka {
     public static void main(String[] args) {
-        Scanner tool_input = new Scanner (System.in);
+        Scanner toolInput = new Scanner (System.in);
         System.out.print("Silahkan masukkan nilai n : ");
-        int n = tool_input.nextInt();
-        tool_input.close();
+        int n = toolInput.nextInt();
+        toolInput.close();
 
         char pola_huruf = 'A';
 
