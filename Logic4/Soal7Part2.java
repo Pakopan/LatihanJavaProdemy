@@ -14,7 +14,7 @@ public class Soal7Part2 {
             for (int j=0; j<=(column-1)/2-i ; j++) {
                 payload[j+i] = deret[j];
                 if (j!=(column-1)/2-i) 
-                    payload[(column-1)/2+1+j] = deret[deret.length-i-1-j];
+                    payload[(column-1)/2+1+j] = deret[deret.length-i-2-j];
             }
             for (int item:payload)  {
                 if (item!=0) System.out.print(item);
